@@ -1,0 +1,7 @@
+﻿  Game.cpp
+C:\Users\Conor\OneDrive - Abertay University\Documents\GitHub\game_states-conorreid97 - Classes_3\build\vs2017\Game.cpp(100,21): warning C4150: deletion of pointer to incomplete type 'gef::Mesh'; no destructor called
+C:\Users\Conor\OneDrive - Abertay University\Documents\GitHub\gef_abertay\system\platform.h(19): message : see declaration of 'gef::Mesh'
+C:\Users\Conor\OneDrive - Abertay University\Documents\GitHub\game_states-conorreid97 - Classes_3\build\vs2017\Game.cpp(192,41): warning C4244: 'argument': conversion from 'Int32' to 'const float', possible loss of data
+C:\Users\Conor\OneDrive - Abertay University\Documents\GitHub\game_states-conorreid97 - Classes_3\build\vs2017\Game.cpp(193,39): warning C4244: 'argument': conversion from 'Int32' to 'const float', possible loss of data
+Game.obj : error LNK2019: unresolved external symbol "private: void __cdecl Game::InitPlatform2(class GameObject,class b2Body *,class gef::MeshInstance,struct b2Vec2)" (?InitPlatform2@Game@@AEAAXVGameObject@@PEAVb2Body@@VMeshInstance@gef@@Ub2Vec2@@@Z) referenced in function "public: void __cdecl Game::GameInit(class gef::Platform &,class gef::InputManager *,class gef::SpriteRenderer *,class gef::Font *)" (?GameInit@Game@@QEAAXAEAVPlatform@gef@@PEAVInputManager@3@PEAVSpriteRenderer@3@PEAVFont@3@@Z)
+C:\Users\Conor\OneDrive - Abertay University\Documents\GitHub\game_states-conorreid97 - Classes_3\build\vs2017\x64\Debug\scene_app.exe : fatal error LNK1120: 1 unresolved externals
